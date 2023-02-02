@@ -1,0 +1,21 @@
+ .bg-image {
+  background-image: url(./image/home-banner.jpg);
+  width: 100%;
+  /* height:1100px; */
+
+ }
+
+ .extra_margin {
+  margin-top: 100px;
+  margin-bottom: 100px;
+ }
+
+ .round {
+  border-radius: 16px;
+ }
+
+ .smallline{
+  width: 60px;
+  height: 2px;
+  background-color: rgb(4, 179, 4);
+ }
