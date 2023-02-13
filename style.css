@@ -1,8 +1,23 @@
- .bg-image {
-  background-image: url(./image/home-banner.jpg);
-  width: 100%;
-  /* height:1100px; */
+.mono-section-one {
+  background-color: rgb(26, 25, 25);
+  
+}
+ 
 
+
+.mono-section-one-bg {
+   
+  /* opacity: 0.5 !important; */
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+}
+ 
+ 
+ .mombo_nab{
+  position: sticky;
+  top: 0px;
+  z-index: 1;
  }
 
  .extra_margin {
@@ -30,3 +45,52 @@
   width: 25px;
   height: 25px;
  }
+
+ .section-bg {
+  background-color: #F1F6FD;
+ }
+
+ .circle_div {
+  width: 4rem;
+  height: 4rem;
+
+ }
+ 
+ .mycolor_01 {
+  background-color: #4EAB8E;
+ }
+ .mycolor_02{
+  background-color: #D9A235;
+ }
+ .mycolor_03{
+  background-color: #3E9659 ;
+ }
+
+ .card_image {
+  border-radius: 16px;
+ }
+
+ .location {
+  width: 400px;
+  height: 200px;
+  background-color: #4EAB8E;
+ }
+
+ .list_form {
+  max-width: 26rem;
+  margin-left: auto ;
+ }
+
+ ul  {
+  list-style-type: none;
+ }
+
+ a {
+  text-decoration:none ;
+ }
+ .iconelist {
+  color: #5be785;
+  font-size: 25px;
+ }
+
+  
