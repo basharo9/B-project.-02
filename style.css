@@ -70,13 +70,13 @@
   border-radius: 16px;
  }
 
- .location {
-  width: 400px;
+ .location-image {
+  max-width: 400px;
   height: 200px;
-  background-color: #4EAB8E;
+  border: #3E9659 2px;
  }
 
- .list_form {
+ .last_form {
   max-width: 26rem;
   margin-left: auto ;
  }
