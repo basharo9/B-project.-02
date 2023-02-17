@@ -1,18 +1,36 @@
-.mono-section-one {
-  background-color: rgb(26, 25, 25);
-  
-}
- 
+ .headerText{
+  color: #bdb9b9;
+ }
 
+ .headerText:hover{
+ color: #FFF;
+ }
+
+ .headerIcon{
+  width: 23px;
+  height: 23px;
+  background-color:#4BB16A ;
+  color:#fff;
+  border-radius:4px ;
+  margin-right: 5px;
+ }
+ .Icone{
+   font-size: 10px;
+ }
+ .headerIcon:hover{
+  background-color: #136b2d;
+ }
 
 .mono-section-one-bg {
-   
-  /* opacity: 0.5 !important; */
   background-repeat: no-repeat;
   background-position: right bottom;
   background-attachment: fixed;
+   
 }
- 
+.mono-section-one{
+  background-color: black;
+  /* opacity: 0.6; */
+}
  
  .mombo_nab{
   position: sticky;
@@ -37,7 +55,7 @@
  .smallline_2{
   width: 30px;
   height: 2px;
-  background-color: rgb(0, 248, 0);
+  background-color: rgb(26, 167, 26);
  }
 
  .black_div{
@@ -70,10 +88,20 @@
   border-radius: 16px;
  }
 
+.hoverImage {
+  width: 100%;
+  height: 100%;
+}
+
+.hoverImage:hover {
+  transition: 1s;
+  
+}
+
  .location-image {
-  max-width: 400px;
-  height: 200px;
-  border: #3E9659 2px;
+  width: 100%;
+  height: 250px;
+  border: #3E9659 4px;
  }
 
  .last_form {
@@ -90,7 +118,21 @@
  }
  .iconelist {
   color: #5be785;
+  font-size: 20px;
+ }
+
+ .coffee{
+  width: 55px;
+  height:60px;
+  background-color: rgba(8, 255, 8, 0.247);
   font-size: 25px;
  }
 
-  
+ .circleIcon{
+  width: 23px;
+  height: 23px;
+  background-color:#4BB16A ;
+  color:#fff;
+  border-radius:50%;
+  margin-right: 5px;
+ }
