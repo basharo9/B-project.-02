@@ -103,6 +103,10 @@
   height: 250px;
   border: #3E9659 4px;
  }
+ .location {
+  border:3px solid #bdb9b9 ;
+  border-radius: 6px;
+ }
 
  .last_form {
   max-width: 26rem;
