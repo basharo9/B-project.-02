@@ -24,7 +24,7 @@
 
  .build_section{
   /* position: relative; */
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 100%;
   display: flex;
   background-image: url(./image/home-banner.jpg) ;
@@ -45,7 +45,7 @@
  z-index: 22;
 }
 
-
+ 
  .mombo_nab{
   position: sticky;
   top: 0px;
@@ -53,8 +53,8 @@
  }
 
  .extra_margin {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
  }
 
  .round {
@@ -153,4 +153,19 @@
   color:#fff;
   border-radius:50%;
   margin-right: 5px;
+ 
  }
+
+
+ 
+ #orangLine{
+  background-color: rgb(247, 242, 242);
+  height: 1px;
+  width: 1px;
+  transition: 2s;
+}
+
+.footer-text:hover #orangLine{ 
+  width:  100%;  
+}
+ 
