@@ -21,21 +21,34 @@
   background-color: #136b2d;
  }
 
-.mono-section-one-bg {
+ .build_section{
+  /* position: relative; */
+  background-color: aqua;
+  height: 100%;
+  display: flex;
+  background-image: url(./image/home-banner.jpg) ;
   background-repeat: no-repeat;
-  background-position: right bottom;
-  background-attachment: fixed;
-   
+  background-position: right top;
+  overflow: hidden;
 }
-.mono-section-one{
-  background-color: black;
-  /* opacity: 0.6; */
+
+.black-div{
+ position: absolute;
+ height: 76%;
+ width: 100%;
+ background-color: black;
+ z-index: 11;
+ opacity: 0.6;
 }
- 
+.section-one{
+ z-index: 22;
+}
+
+
  .mombo_nab{
   position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 33;
  }
 
  .extra_margin {
