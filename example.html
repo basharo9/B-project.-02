@@ -13,28 +13,7 @@
    <!-- BOOTSTRAP  L I N K -->
    <link rel="stylesheet" href="./style.css">
     <style>
-     .build_section{
-       /* position: relative; */
-       background-color: aqua;
-       height: 100%;
-       display: flex;
-       background-image: url(./image/home-banner.jpg) ;
-       background-repeat: no-repeat;
-       background-position: right top;
-       overflow: hidden;
-     }
-
-     .black-div{
-      position: absolute;
-      height: 76%;
-      width: 100%;
-      background-color: black;
-      z-index: 11;
-      opacity: 0.6;
-     }
-     .section-one{
-      z-index: 22;
-     }
+  
 
      
     </style>
@@ -42,55 +21,42 @@
 </head>
 <body>
  
-  <section class="build_section">
-      <div class="black-div"></div>
-      <div class="container section-one ">
+  <header class="bg-dark ">
+    <div class="container d-flex ">
 
-        <div class="row align-items-center  ">
-          <!--  C O L U M N -->
-          <div class="col-lg-6  ">
-            <div>
-              <h1 class="display-3 fw-bold text-light my-3">Build a better office environment.</h1>
-              <p class="text-light my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-              </p>
-            </div>
-            <div>
-              <button type="button" class="btn btn-success">Get started → </button>
-            </div>
-          </div>
-          <!-- C O L U M N -->
-          <div class="col-lg-6  my-4 p-4 ">
-            <div class="card  shadow p-3 my-4 bg-body rounded-3  last_form">
-              <div class="card-body  ">
-                <h3 class="text-center mt-3">Become a member</h3>
-                <p class="text-center p-4">Everything you need to grow your business. Book an office today!</p>
-                <form>
-                  <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" Your Name">
-                  </div>
-                  <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" Your Email">
-                  </div>
-                  <div class="mb-3">
-                    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder=" Your Phone">
-                  </div>
-                  <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
-                      placeholder=" Your Comment"></textarea>
-                  </div>
-                </form>
-                <div class="d-grid">
-                  <a href="#" class="btn btn-success">Get started</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- C O L U M N -->
+        <div class=" d-flex mt-2 ">
+          <p class="headerText mx-2 "><i class="bi bi-phone"></i> +01 8585 855 855</p>
+          <p class="headerText mx-2 ms-auto"> <i class="bi bi-envelope mx-1"></i>support@demai.com</p>
         </div>
+               
+        <div class="d-md-flex ms-auto justify-content-center align-items-center d-none  ">
+          <div class="headerIcon d-flex justify-content-center align-items-center "> <i class="bi bi-facebook Icone"> </i></div>
+          <div class="headerIcon d-flex justify-content-center align-items-center "> <i class="bi bi-twitter Icone"></i> </div>
+          <div class="headerIcon d-flex justify-content-center align-items-center "> <i class="bi bi-linkedin Icone"></i> </div>
+          <div class="headerIcon d-flex justify-content-center align-items-center "> <i class="bi bi-instagram Icone"></i> </div>
+         </div>
+        
+    </div>
+  </header>
 
+  <header class="bg-dark my-3 py-2">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-md-6">
+           <a href="#" class="mb-2 headerText ">  <i class="bi bi-phone"></i> +01 8585 855 855 </a>
+           <a href="#" class="mb-2 headerText float-end float-md-none">  <i class="bi bi-envelope mx-1"></i> support@demai.com </a>
+        </div>
+        <div class="col-md-6 d-md-flex   justify-content-end align-items-center d-none ">
+          <div class="headerIcon d-flex justify-content-center align-items-center "> <i class="bi bi-facebook Icone"> </i></div>
+          <div class="headerIcon d-flex justify-content-center align-items-center "> <i class="bi bi-twitter Icone"></i> </div>
+          <div class="headerIcon d-flex justify-content-center align-items-center "> <i class="bi bi-linkedin Icone"></i> </div>
+          <div class="headerIcon d-flex justify-content-center align-items-center "> <i class="bi bi-instagram Icone"></i> </div>
+        </div>
       </div>
-  </section>
+    </div>
+  </header>
+
+
  
 </body>
 </html>
